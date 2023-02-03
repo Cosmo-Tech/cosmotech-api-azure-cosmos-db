@@ -13,7 +13,8 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
 import org.springframework.stereotype.Component
 
 @Component("csmCosmos")
-@ConditionalOnProperty(name = ["csm.platform.cosmosdb.enable"], havingValue = "true", matchIfMissing = false)
+@ConditionalOnProperty(
+    name = ["csm.platform.cosmosdb.enable"], havingValue = "true", matchIfMissing = false)
 class CsmAzureCosmosHealthIndicator(
     csmPlatformProperties: CsmPlatformProperties,
     private val cosmosClient: CosmosClient
