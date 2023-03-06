@@ -141,7 +141,7 @@ val deteckVersion = "1.21.0"
 val azureSDKBomVersion = "1.2.7"
 val azureSpringBootBomVersion = "3.14.0"
 val cosmotechApiCommonVersion = "0.1.32-SNAPSHOT"
-val springBootStarterWebVersion = "2.7.0"
+val springBootStarterWebVersion = "3.0.4"
 
 dependencies {
   detekt("io.gitlab.arturbosch.detekt:detekt-cli:$deteckVersion")
