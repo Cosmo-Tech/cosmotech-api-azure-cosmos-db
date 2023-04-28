@@ -138,7 +138,7 @@ tasks.jar {
 }
 // Dependencies version
 val deteckVersion = "1.21.0"
-val azureSDKBomVersion = "1.2.7"
+val azureSDKBomVersion = "1.2.12"
 val azureSpringBootBomVersion = "3.14.0"
 val cosmotechApiCommonVersion = "0.1.32-SNAPSHOT"
 val springBootStarterWebVersion = "2.7.0"
